@@ -39,7 +39,8 @@
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^8.1",
         "phpunit/phpunit": "^10.0",
-        "spatie/laravel-ignition": "^2.0"
+        "spatie/laravel-ignition": "^2.0",
+        "iso-doss/territorial-division": "@dev"
     },
     "autoload": {
         "psr-4": {
@@ -91,5 +92,12 @@
         }
     },
     "minimum-stability": "beta",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/iso-doss/territorial-division",
+            "symlink": true
+        }
+    ]
 }
